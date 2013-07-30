@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://hyphenlee.github.io/atom.xml" rel="self"/>
   <link href="http://hyphenlee.github.io/"/>
-  <updated>2013-07-30T16:53:20+08:00</updated>
+  <updated>2013-07-30T17:24:18+08:00</updated>
   <id>http://hyphenlee.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,59 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[第一份博客]]></title>
+    <link href="http://hyphenlee.github.io/blog/2013/07/30/blog/"/>
+    <updated>2013-07-30T16:56:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2013/07/30/blog</id>
+    <content type="html"><![CDATA[<h2>关于博客本身</h2>
+
+<p>博客使用github pages建成，无任何花费，只是步骤有点繁琐，要敲一堆代码。</p>
+
+<h2>试试markdown的功能</h2>
+
+<p>首先来一段代码吧：</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>  <span class="n">printf</span><span class="p">(</span><span class="s">&quot;what a wonderful world!&quot;</span><span class="p">);</span>
+</span><span class='line'>  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>再来个下划线：</p>
+
+<hr />
+
+<h2>插一张图片：</h2>
+
+<h2><img src="http://hyphenlee.github.io/images/500.jpeg" alt="my image" /></h2>
+
+<p>来几个列表吧：</p>
+
+<pre><code>hi
+this
+is 
+just
+a 
+test
+</code></pre>
+
+<blockquote><p>what hell is going on?</p>
+
+<blockquote><p>what&rsquo;s this</p>
+
+<blockquote><p>whatever</p>
+
+<h2>that&rsquo;s it!</h2></blockquote></blockquote></blockquote>
+]]></content>
+  </entry>
   
 </feed>
