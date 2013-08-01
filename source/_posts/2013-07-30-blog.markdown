@@ -1,0 +1,35 @@
+---
+layout: post
+title: "第一份博客"
+date: 2013-07-30 16:56
+comments: true
+categories: 
+---
+##关于博客本身
+博客使用github pages建成，无任何花费，只是步骤有点繁琐，要敲一堆代码。
+##试试markdown的功能
+首先来一段代码吧：
+```c
+	int main()
+	{
+		printf("what a wonderful world!");
+		return 0;
+	}
+```
+再来个下划线：
+***
+插一张图片：
+---
+![my image](/images/500.jpeg)
+---
+来几个列表吧：
+	hi
+	this
+	is 
+	just
+	a 
+	test
+>what hell is going on?
+>>what's this
+>>>whatever
+##that's it!
