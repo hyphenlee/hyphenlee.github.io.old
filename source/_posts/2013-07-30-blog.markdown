@@ -16,20 +16,26 @@ categories:
 		return 0;
 	}
 ```
+`print("what a wonderful world");`
+    print("what if I could fly?");
 再来个下划线：
 ***
 插一张图片：
 ---
 ![my image](/images/500.jpeg)
 ---
-来几个列表吧：
-	hi
-	this
-	is 
-	just
-	a 
-	test
->what hell is going on?
->>what's this
-whatever
-###that's it!
+###链接：
+我的博客链接：[我的博客](http://hyphenlee.github.io)
+###文字引用：
+>
+	假如生活欺骗了你
+	不要悲伤，不要心急
+	忧郁的日子里需要镇静：
+	相信吧，快乐的日子将会来临
+	心儿永远向往这未来
+	现在却常是忧郁
+	一切都是瞬息
+	一切都将会过去
+	而那过去了的
+	就会成为亲切的怀恋
+
