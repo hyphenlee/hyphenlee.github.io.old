@@ -16,18 +16,22 @@ categories: tech
 	ses << "INSERT INTO FORENAME VALUES(?)", use(aName), now;
 再换到1.5.2版本时，发现use,now的命名空间都变了，由原来的Poco::Data,变成Poco::Data::Keywords, Poco/Data/common.h文件也消失了。
 官网的教程与代码是有很多是不同步的，所以:
-	“RTFSC – Read The F**king Source Code ☺!” ––Linus Benedict Torvalds
-odbc的配置对于新手也是个问题,windows的odbc配置管理器在这里:
-	C:\Windows\SysWOW64\odbcad32.exe
+>“RTFSC – Read The F**king Source Code ☺!” ––Linus Benedict Torvalds
+
+odbc的配置对于新手也是个问题,windows(windows8 64 位)的odbc配置管理器在这里:
+>C:\Windows\SysWOW64\odbcad32.exe
+
 32位和64位是有区别的，32位只能用32位的驱动，mysql的odbc驱动也要额外安装
 连接基本就是这些问题了
 ##二进制数据插入、读取
 二进制数据读取会比较麻烦，首先数据的大小要有个明确的范围，因为要设在mysql的缓冲区和poco的缓冲区，mysql的缓冲区设置方法为：
 	mysql> set global max_allowed_packet=1000000000;
 程序里则为:
+```c
 	Session session("ODBC",DSN);
 	std::size_t maxFldSize=1000000000;
 	session.setProperty("maxFieldSize",Poco::Any(maxFldSize));
+```
 二进制数据插入、读取方法:
 ```c
 BLOB dat_((unsigned char*)buffer,length);
@@ -35,3 +39,4 @@ std::vector<CLOB> te_bl;
 session<<"insert into blobtest  values(?)" ,use(dat_),now;
 session<<"select * from blobtest",into(te_bl),now;
 ```
+
