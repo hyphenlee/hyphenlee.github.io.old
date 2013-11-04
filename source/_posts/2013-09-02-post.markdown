@@ -3,9 +3,11 @@ layout: post
 title: "something I want to tell"
 date: 2013-09-02 16:47
 comments: true
-categories: 
+categories: other
 ---
 ####I think I should do something
-Now, I am in a company ,I want to do something meanful. I don't want to waste mytime.
-I want to be a good person, and have a wonderful dream to persuit. I just don't want to die with loneliness.
+Now, I am young and alone, but I will never be lonely and pointless. 
+I want to do something meanful.I want to be someone useful.
+I don't want to waste my time.
+I want to be one of a kind, and have a wonderful dream to persuit. I just don't want to die with **loneliness**.
 
