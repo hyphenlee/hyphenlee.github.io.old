@@ -32,16 +32,12 @@ odbc的配置对于新手也是个问题,windows(windows8 64 位)的32位odbc配
 >max_allowed_packet=256M
 
 程序里则为:
-```c
 	Session session("ODBC",DSN);
 	std::size_t maxFldSize=0x0fffffff; //256MB
 	session.setProperty("maxFieldSize",Poco::Any(maxFldSize));
-```
 二进制数据插入、读取方法:
-```c
 BLOB dat_((unsigned char*)buffer,length);
 std::vector<CLOB> te_bl;
 session<<"insert into blobtest  values(?)" ,use(dat_),now;
 session<<"select * from blobtest",into(te_bl),now;
-```
 

@@ -14,13 +14,11 @@ categories: other
 博客使用octopress,安装在我的ubuntu上，使用markdown方式写的文章，网页挂在github pages上，无任何花费，只是步骤有点繁琐，要敲一堆代码。
 ##试试markdown的功能
 首先来一段代码吧：
-```c
 	int main()
 	{
 		printf("what a wonderful world!");
 		return 0;
 	}
-```
 `print("what a wonderful world");`
     print("what if I could fly?");
 再来个下划线：
