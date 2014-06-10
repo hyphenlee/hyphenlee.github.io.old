@@ -3,7 +3,7 @@ layout: post
 title: "running"
 date: 2013-11-2 10:02
 comments: true
-categories: 
+categories: life
 ---
 关于跑步早觉得该写点什么了，今天是周六,没什么事情就一个人好好的写一篇关于跑步的文章吧
 ###我的跑步经历

@@ -3,7 +3,7 @@ layout: post
 title: "the egg"  
 date: 2014-02-09 18:33  
 comments: true  
-categories:   
+categories: funny
 ---  
  这是在hacker news 看到的链接，排名很高，看了之后觉得很有意思，不知道人活着究竟为了什么的人不妨看看人家的看法:  
 [The Egg](http://www.galactanet.com/oneoff/theegg.html)  

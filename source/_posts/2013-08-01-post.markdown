@@ -3,7 +3,7 @@ layout: post
 title: "我怕"
 date: 2013-08-01 16:56
 comments: true
-categories: other
+categories: poet
 ---
 ###时间过得飞快，
 ###快的让我害怕，

@@ -3,7 +3,7 @@ layout: post
 title: "summary of 2013"
 date: 2014-01-30 22:56
 comments: true
-categories: 
+categories: life
 ---
 
 2013年就要过去了，boss说要我做总结，我讨厌企业的那种功利性的总结，我厌烦了过于具体且抱着侥幸心里的职业规划，但对于我个人来说还是非常有必要做一次总结，只为了这一年的变动。

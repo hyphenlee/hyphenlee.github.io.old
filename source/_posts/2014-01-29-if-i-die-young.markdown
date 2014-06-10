@@ -3,7 +3,7 @@ layout: post
 title: "if i die young"
 date: 2014-01-29 11:39
 comments: true
-categories: 
+categories: thought
 ---
 每天我都要坐一辆郊区往市区的车去上班，倘若某天在这车上，这辆不起眼的公交车上，在某个不起眼的地方，出了问题，汽车失控，结果是高速地撞上路旁的防护栏，继而飞下高架，车毁人亡，无论怎样，反正我死了，结果会怎样？
 
