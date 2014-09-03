@@ -1,0 +1,217 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>poco C++通过odbc连接 mysql传送大数据 - hyphen lee's personal blog</title>
+	<meta name="author" content="hyphen lee">
+
+	
+	<meta name="description" content="最近在做数据库开发，使用的是poco C++库，用odbc的方式链接mysql,在传输 大的二进制数据折腾了很长时间，特写个文章给需要的人。 连接数据库 连接数据库本身没什么难度，按着poco c++官网的教程就能连上，
+郁闷的是教程有一些错误，而且和代码版本对不上，我开始用1.4. &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="hyphen lee's personal blog" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">hyphen lee's personal blog</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:hyphenlee.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		
+		<a class="github" href="https://github.com/hyphenlee" title="GitHub">GitHub</a>
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+    
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:hyphenlee.github.io">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Poco C++通过odbc连接 Mysql传送大数据</h2>
+	<div class="entry-content"><h5>最近在做数据库开发，使用的是poco C++库，用odbc的方式链接mysql,在传输      大的二进制数据折腾了很长时间，特写个文章给需要的人。</h5>
+
+<h2>连接数据库</h2>
+
+<p>连接数据库本身没什么难度，按着poco c++<a href="http://pocoproject.org/docs/00200-DataUserManual.html">官网的教程</a>就能连上，
+郁闷的是教程有一些错误，而且和代码版本对不上，我开始用1.4.6就发现好些错误，如插入数据时用按官网用</p>
+
+<pre><code>std::string aName("Peter");
+ses &lt;&lt; "INSERT INTO FORENAME VALUES(:name)", use(aName), now;
+后面整了很长时间都不行,看了测试代码才知道应该用下面的方式:
+std::string aName("Peter");
+ses &lt;&lt; "INSERT INTO FORENAME VALUES(?)", use(aName), now;
+</code></pre>
+
+<p>再换到1.5.2版本时，发现use,now的命名空间都变了，由原来的Poco::Data,变成Poco::Data::Keywords, Poco/Data/common.h文件也消失了。
+官网的教程与代码是有很多是不同步的，所以:</p>
+
+<blockquote><p>“RTFSC – Read The F**king Source Code ☺!” ––Linus Benedict Torvalds</p></blockquote>
+
+<p>使用自定义类型插入时，insert语句中的VALUES(?,?,?),问号个数要与模板中的数据项目个数一致，
+自定义数据类型的数据插入次序也要和数据库中表的列的次序相对应。
+odbc的配置对于新手也是个问题,windows(windows8 64 位)的32位odbc配置管理器在这里:</p>
+
+<blockquote><p>C:\Windows\SysWOW64\odbcad32.exe</p></blockquote>
+
+<p>32位和64位是有区别的，32位只能用32位的驱动，mysql的odbc驱动也要额外安装
+连接基本就是这些问题了</p>
+
+<h2>二进制数据插入、读取</h2>
+
+<p>二进制数据读取会比较麻烦，首先数据的大小要有个明确的范围，因为要设在mysql的缓冲区和poco的缓冲区，mysql的缓冲区设置方法为：</p>
+
+<pre><code>mysql&gt; set global max_allowed_packet=1000000000;
+</code></pre>
+
+<p>或者在mysql的配置文件 里改(安装文件根目录的my.ini，没有的话用bin/mysqlinstanceconfig.exe创建)，增加一行：</p>
+
+<blockquote><p>max_allowed_packet=256M</p></blockquote>
+
+<p>程序里则为:</p>
+
+<pre><code>Session session("ODBC",DSN);
+std::size_t maxFldSize=0x0fffffff; //256MB
+session.setProperty("maxFieldSize",Poco::Any(maxFldSize));
+</code></pre>
+
+<p>二进制数据插入、读取方法:
+BLOB dat<em>((unsigned char*)buffer,length);
+std::vector<CLOB> te_bl;
+session&lt;&lt;&ldquo;insert into blobtest  values(?)&rdquo; ,use(dat</em>),now;
+session&lt;&lt;&ldquo;select * from blobtest&rdquo;,into(te_bl),now;</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-09T14:13:00+08:00" pubdate data-updated="true">Oct 9<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/tech/'>tech</a>
+
+
+</div>
+	
+	<div class="comments"><a href="#disqus_thread">Comments</a></div>
+	
+</div>
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+		
+		
+		<a class="addthis_button_tweet"></a>
+		
+		
+		
+	</div>
+	
+</div>
+
+
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2014
+
+    hyphen lee
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'hyphensblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://hyphenlee.github.io/blog/2013/10/09/database/';
+        var disqus_url = 'http://hyphenlee.github.io/blog/2013/10/09/database/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//go.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: other | hyphen lee's personal blog]]></title>
+  <link href="http://hyphenlee.github.io/blog/categories/other/atom.xml" rel="self"/>
+  <link href="http://hyphenlee.github.io/"/>
+  <updated>2014-09-03T17:33:07+08:00</updated>
+  <id>http://hyphenlee.github.io/</id>
+  <author>
+    <name><![CDATA[hyphen lee]]></name>
+    <email><![CDATA[lhfcjhyy@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[something I want to tell]]></title>
+    <link href="http://hyphenlee.github.io/blog/2013/09/02/post/"/>
+    <updated>2013-09-02T16:47:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2013/09/02/post</id>
+    <content type="html"><![CDATA[<h4>I think I should do something</h4>
+
+<p>Now, I am young and alone, but I will never be lonely and pointless.
+I want to do something meanful.I want to be someone useful.
+I don&rsquo;t want to waste my time.
+I want to be one of a kind, and have a wonderful dream to persuit. I just don&rsquo;t want to die with <strong>loneliness</strong>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[第一份博客]]></title>
+    <link href="http://hyphenlee.github.io/blog/2013/07/30/blog/"/>
+    <updated>2013-07-30T16:56:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2013/07/30/blog</id>
+    <content type="html"><![CDATA[<h2>为什么会有这个博客呢？</h2>
+
+<p>首先推荐一片博文：<a href="http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/">为什么要写博客</a></p>
+
+<p>人生苦短，而互联网最为奇异之处莫过于能让一个人的思想永生，你在互联网上写的任何一段文字，只要其有意义，有人愿意读，那它就会一直被复制、转载、保存、流传下去。
+将一切斥诸于文字，是一个人思想的本身的对话，是大脑的产出，我们每天都接触无数的信息，可最终又随时间消亡，了无痕迹，唯有文字能成为永恒的存在，倘若有利于他人，亦不枉此生。</p>
+
+<h2>建站方式</h2>
+
+<p>博客使用octopress,安装在我的ubuntu上，使用markdown方式写的文章，网页挂在github pages上，无任何花费，只是步骤有点繁琐，要敲一堆代码。</p>
+
+<h2>试试markdown的功能</h2>
+
+<p>首先来一段代码吧：</p>
+
+<pre><code>int main()
+{
+    printf("what a wonderful world!");
+    return 0;
+}
+</code></pre>
+
+<p><code>print("what a wonderful world");</code></p>
+
+<pre><code>print("what if I could fly?");
+</code></pre>
+
+<p>再来个下划线：</p>
+
+<hr />
+
+<h2>插一张图片：</h2>
+
+<h2><img src="/images/500.jpeg" alt="my image" /></h2>
+
+<h3>链接：</h3>
+
+<p>我的博客链接：<a href="http://hyphenlee.github.io">我的博客</a></p>
+
+<h3>文字引用：</h3>
+
+<blockquote><pre><code>假如生活欺骗了你
+不要悲伤，不要心急
+忧郁的日子里需要镇静：
+相信吧，快乐的日子将会来临
+心儿永远向往这未来
+现在却常是忧郁
+一切都是瞬息
+一切都将会过去
+而那过去了的
+就会成为亲切的怀恋
+</code></pre></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,93 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>hyphen lee's personal blog</title>
-	<meta name="author" content="hyphen lee">
+  <title><![CDATA[hyphen lee's personal blog]]></title>
+  <link href="http://hyphenlee.github.io/atom.xml" rel="self"/>
+  <link href="http://hyphenlee.github.io/"/>
+  <updated>2014-09-03T17:33:06+08:00</updated>
+  <id>http://hyphenlee.github.io/</id>
+  <author>
+    <name><![CDATA[hyphen lee]]></name>
+    <email><![CDATA[lhfcjhyy@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-	
-	<meta name="description" content="世上几百年旧家无非积德，天下第一件好事还是读书。 人说读书无用，我说读书本身是无用，因为只是读书或者说泛泛的读是不够的，只有精读细读，更重要的是读了之后还要应用在具体的生活中，才能让它有用，所以读书本身有无用之用，无用而大用，无用而无所不用。
-而书本身又分很多种，一本书是否有用，对每个人都不一样 &hellip;">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<link href="/atom.xml" rel="alternate" title="hyphen lee's personal blog" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.png" rel="shortcut icon">
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	
-</head>
-
-
-<body>
-	<header id="header" class="inner"><h1><a href="/">hyphen lee's personal blog</a></h1>
-<nav id="main-nav"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
-</ul>
-</nav>
-<nav id="mobile-nav">
-	<div class="alignleft menu">
-		<a class="button">Menu</a>
-		<div class="container"><ul class="main">
-	<li><a href="/">Blog</a></li>
-	<li><a href="/blog/archives">Archives</a></li>
-</ul>
-</div>
-	</div>
-	<div class="alignright search">
-		<a class="button"></a>
-		<div class="container">
-			<form action="http://google.com/search" method="get">
-				<input type="text" name="q" results="0">
-				<input type="hidden" name="q" value="site:hyphenlee.github.io">
-			</form>
-		</div>
-	</div>
-</nav>
-<nav id="sub-nav" class="alignright">
-	<div class="social">
-		
-		
-		
-		
-		<a class="github" href="https://github.com/hyphenlee" title="GitHub">GitHub</a>
-		
-    
-		
-		
-		
-		
-		
-		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
-		
-    
-	</div>
-	<form class="search" action="http://google.com/search" method="get">
-		<input class="alignright" type="text" name="q" results="0">
-		<input type="hidden" name="q" value="site:hyphenlee.github.io">
-	</form>
-</nav>
-
-</header>
-	
-		
-	
-	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/09/03/about-reading/">
-		
-			关于阅读</a>
-	</h2>
-	<div class="entry-content">
-		<h2>世上几百年旧家无非积德，天下第一件好事还是读书。</h2>
+  
+  <entry>
+    <title type="html"><![CDATA[关于阅读]]></title>
+    <link href="http://hyphenlee.github.io/blog/2014/09/03/about-reading/"/>
+    <updated>2014-09-03T16:56:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2014/09/03/about-reading</id>
+    <content type="html"><![CDATA[<h2>世上几百年旧家无非积德，天下第一件好事还是读书。</h2>
 
 <p>人说读书无用，我说读书本身是无用，因为只是读书或者说泛泛的读是不够的，只有精读细读，更重要的是读了之后还要应用在具体的生活中，才能让它有用，所以读书本身有无用之用，无用而大用，无用而无所不用。<br/>
 而书本身又分很多种，一本书是否有用，对每个人都不一样，我写这篇文章并不是为了告诉别人什么书好，什么书不好，只是为了记录一下自己的阅读状态，倘若有人认同，也不枉我码了半天字。</p>
@@ -102,45 +33,15 @@
 
 <p>成功学：这一类型的书籍，我主要归为外文类的心理学相关的书籍，比如《少有人走的路》《正能量》《高效人士的七个习惯》，这类书属于立马见效的实用类书籍，最近也在看幸福公开课，里面有很多东西也是能立马获得效益的，例如其中说到的一个实验指出通过想象自己在在图书馆不断努力学习提高分数比只是想象自己的分数提高了的人更容易提高分数，其中还有说到冥想的种种好处，在《自控力》一书中也说冥想对于自控的作用，虽然我一直做得不好，体味不到个中奇妙，相对来说跑步对我的收益更明显，但我一直努力在做，成功学的书籍在光看不练的情况下往往很容易沦为鸡汤。例如《正能量》是最好理解的，整本书就是在讲一个东西：表现原理，简单地说，就是你的行为影响了你的情绪。直接看这个结论是没有什么感觉的，当作者把这个原理说尽说透，提供大量的实验和理论支持，告诉你为什么会得出这个结论，你才会感受到其实用性，不过真真用到生活中就需要大量的努力和实践了。<br/>
 其实所有的书都是这样，本来要看完就是极难的，去实践就更加吃力了，但正是因为难所以做得人才少，我们才能体现自己的差异化，才能与众不同，你才有脸和别人说：“我就是我，是怎么点也点不着的烟火“（你也可以说是不一样的烟火），当然只是为了与众不同去做这些事情有点太舍本逐末了，最终的目的对我而言不是伟、光、正的利国利民，仅仅只是为了提升自己的幸福度，让自己过的更快乐，真正的快乐！</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2014-09-03T16:56:00+08:00" pubdate data-updated="true">Sep 3<span>rd</span>, 2014</time></div>
-	<div class="tags">
-
-</div>
-	
-	<div class="comments"><a href="/blog/2014/09/03/about-reading/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/06/10/database-optimise/">
-		
-			Database Optimise</a>
-	</h2>
-	<div class="entry-content">
-		<h6>最近公司开发的软件遇到效率上的性能瓶颈，所以写了些代码测试一下数据库的读写效率：</h6>
+  <entry>
+    <title type="html"><![CDATA[database optimise]]></title>
+    <link href="http://hyphenlee.github.io/blog/2014/06/10/database-optimise/"/>
+    <updated>2014-06-10T16:10:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2014/06/10/database-optimise</id>
+    <content type="html"><![CDATA[<h6>最近公司开发的软件遇到效率上的性能瓶颈，所以写了些代码测试一下数据库的读写效率：</h6>
 
 <hr />
 
@@ -252,96 +153,28 @@
 
 <p>上面是当时用emacs的org模式记得笔记，记得数字都是测试所花的时间，总的来说有主键和美主键的差别是很大的，理论上来说mysql 用的是B+树，普通查询的时间复杂度是O(n),而有主键的时间复杂度是O(log2(n)),8条数据无主键要8秒，有主键就3秒，但1000条数据有主键就只要10秒，差距是很大的。<br/>
 这次测试让我意外的是用字符串作为主键时间居然比用int型做主键效率还快，按理来说字符串比较的速度应该会比整型的比较会慢很多，但这里却相反，有点纳闷，有一部分原因或许是代码本身以及计时方式产生的误差，具体原因不清楚（知道原因的一定要和我说啊！)，但以后至少可以放心的使用不长的字符串作为主键了。</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2014-06-10T16:10:00+08:00" pubdate data-updated="true">Jun 10<span>th</span>, 2014</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/tech/'>tech</a>
-
-
-</div>
-	
-	<div class="comments"><a href="/blog/2014/06/10/database-optimise/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/04/07/about-lonely/">
-		
-			About Lonely</a>
-	</h2>
-	<div class="entry-content">
-		<p>我是孤独的，虽然我极不愿意承认，但这是事实.<br/>
+  <entry>
+    <title type="html"><![CDATA[about lonely]]></title>
+    <link href="http://hyphenlee.github.io/blog/2014/04/07/about-lonely/"/>
+    <updated>2014-04-07T15:43:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2014/04/07/about-lonely</id>
+    <content type="html"><![CDATA[<p>我是孤独的，虽然我极不愿意承认，但这是事实.<br/>
 关于孤独本身,目前我似乎还没有好的解决办法,所以我写这篇文章就不能用于无病呻吟地絮叨一个人如何的寂寞,而是用于解释孤独的必要性,或许这是吃不到葡萄说葡萄酸的心理,或许这是一种自我的欺骗,但我仍觉得有必要写这样的一片文章,让无数孤独的人多一点理论武器,用于武装自己的精神世界,让自己在面对孤独的时候不再那么无助,不再那么迷茫,而是更加的从容,更加的淡定.<br/>
 喜欢淑本华的一句话:要么庸俗,要么孤独.所以想必孤独之人必有其独到之处,其实世上任何一个人都是唯一的,你总能找出你与其他人不一样的地方,但是人们害怕孤独,这不能怪他们,因为人本就是群居动物,所以人们会尽量的掩藏自己与别人不一样的地方,生怕被人发现,即使这样很累,即使理智告诉我们是不对的,但是出于对孤独的恐惧我们总是选择委屈求全,我们总认为多数人选择的就是对的,害怕被集体抛弃,可是集体意见是怎么来的呢?好一点的集体意见是通过投票取得的,但大多数时候是声音大的那些人被当成了集体意见,我们要意识到人与人之间的不同,每个人都有其价值观,对事情都有其自己抉择,集体只有在少数时候的统一是有益的,大多数时候,为求统一是毫无必要的,只会阻碍的个人的发展,而大多时候的统一甚至是无声无息之间便发生了,因为我们已经习惯了盲从,总想着与别人一样。<br/>
 但是这并不意味着排斥社交，只是在没有选择的情况下，在不得不承受孤独的情况下，能够更加的坦然，而不是一个人黯然神伤的呻吟着寂寞，时间如此珍贵，可以用来做更重要的事情，不会寂寞，因为没有时间去寂寞，让自己忙起来吧。<br/>
 所以一个人的时候,别老想着自己的孤独寂寞,趁着自己还自由,无拘无束,没有负担的时候,多看点书,没事就锻炼身体,培养点爱好,日子可以过的很开心,很滋润的,两个人的时候,别老想着受束缚,烦心,还怀念一个人的时候的自由,动不动就分手离婚,各种三年之痒,七年之痛的.珍惜当下,<strong>因为你所拥有的是无数孤独凄凉的单身人日夜向往,梦寐以求的温暖.</strong></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2014-04-07T15:43:00+08:00" pubdate data-updated="true">Apr 7<span>th</span>, 2014</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/thought/'>thought</a>
-
-
-</div>
-	
-	<div class="comments"><a href="/blog/2014/04/07/about-lonely/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/03/23/about-wait/">
-		
-			我们总是在等待</a>
-	</h2>
-	<div class="entry-content">
-		<p>在知乎上看到一个问题问的是：哪些行为是浪费时间？<br/>
+  <entry>
+    <title type="html"><![CDATA[我们总是在等待]]></title>
+    <link href="http://hyphenlee.github.io/blog/2014/03/23/about-wait/"/>
+    <updated>2014-03-23T20:50:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2014/03/23/about-wait</id>
+    <content type="html"><![CDATA[<p>在知乎上看到一个问题问的是：哪些行为是浪费时间？<br/>
 看到其中一条回答：</p>
 
 <blockquote><p>我的愚见，是等。<br/>
@@ -360,49 +193,15 @@
 可是那只是在骗自己，痛苦还是会缠着你，逃避只会让自己更加痛苦。<br/>
 珍惜当下，多么简单的四个字，怎么去做呢，我认为，当想实现什么或者得到什么的时候，应该先做相应的计划，搞清楚自己每一步该做什么，然后忘掉自己的最终目的，将所有的注意力集中在自己当下能做的事情上，
 将自己能做的事情做好，这就是活在当下，珍惜当下，这样或许能让自己少一点后悔。</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2014-03-23T20:50:00+08:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2014</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/thought/'>thought</a>
-
-
-</div>
-	
-	<div class="comments"><a href="/blog/2014/03/23/about-wait/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/02/09/the-egg/">
-		
-			The Egg</a>
-	</h2>
-	<div class="entry-content">
-		<p> 这是在hacker news 看到的链接，排名很高，看了之后觉得很有意思，不知道人活着究竟为了什么的人不妨看看人家的看法:<br/>
+  <entry>
+    <title type="html"><![CDATA[the egg]]></title>
+    <link href="http://hyphenlee.github.io/blog/2014/02/09/the-egg/"/>
+    <updated>2014-02-09T18:33:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2014/02/09/the-egg</id>
+    <content type="html"><![CDATA[<p> 这是在hacker news 看到的链接，排名很高，看了之后觉得很有意思，不知道人活着究竟为了什么的人不妨看看人家的看法:<br/>
 <a href="http://www.galactanet.com/oneoff/theegg.html">The Egg</a><br/>
 大概翻译一下文章的意思吧（我知道有很多人不愿意花时间看英文的文章，即使很短）:</p>
 
@@ -475,49 +274,15 @@
 然后我送你去你该去的地方了。</p>
 
 <hr />
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2014-02-09T18:33:00+08:00" pubdate data-updated="true">Feb 9<span>th</span>, 2014</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/funny/'>funny</a>
-
-
-</div>
-	
-	<div class="comments"><a href="/blog/2014/02/09/the-egg/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/01/30/summary-of-2013/">
-		
-			Summary of 2013</a>
-	</h2>
-	<div class="entry-content">
-		<p>2013年就要过去了，boss说要我做总结，我讨厌企业的那种功利性的总结，我厌烦了过于具体且抱着侥幸心里的职业规划，但对于我个人来说还是非常有必要做一次总结，只为了这一年的变动。
+  <entry>
+    <title type="html"><![CDATA[summary of 2013]]></title>
+    <link href="http://hyphenlee.github.io/blog/2014/01/30/summary-of-2013/"/>
+    <updated>2014-01-30T22:56:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2014/01/30/summary-of-2013</id>
+    <content type="html"><![CDATA[<p>2013年就要过去了，boss说要我做总结，我讨厌企业的那种功利性的总结，我厌烦了过于具体且抱着侥幸心里的职业规划，但对于我个人来说还是非常有必要做一次总结，只为了这一年的变动。
 这一年我离开了学校，离开了老师、同学，离开了自己所熟悉的一切，走到了一个自己完全陌生的地方，开始了自己新的一段生活，得到了什么，失去了什么，又有谁能够算的清。
 这一年我理所当然的考研失败了，又没有勇气，也没有能力，开始新的征程，现在的我也开始犹豫是否还会考，这始终还是之后的职业发展才能确定的。
 但这一年我至少慢慢的找回了自己方向，我开始更加认真的跑步，开始试着多读一些有深度的书籍，确定了自己生活中最重要的两件事——运动和阅读。
@@ -568,49 +333,15 @@
 </code></pre>
 
 <p>今年跑步变得更加认真了，在苏州的时候基本每天都会花一个小时跑5到10公里，下半年开始用Nike+计步，到现在总计也跑了460公里了，只是后面在上海每天下班都很迟，没办法好好跑步，最多只是上下班走走，以后生活稳定了要认真开始跑步了。</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2014-01-30T22:56:00+08:00" pubdate data-updated="true">Jan 30<span>th</span>, 2014</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/life/'>life</a>
-
-
-</div>
-	
-	<div class="comments"><a href="/blog/2014/01/30/summary-of-2013/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2014/01/29/if-i-die-young/">
-		
-			If I Die Young</a>
-	</h2>
-	<div class="entry-content">
-		<p>每天我都要坐一辆郊区往市区的车去上班，倘若某天在这车上，这辆不起眼的公交车上，在某个不起眼的地方，出了问题，汽车失控，结果是高速地撞上路旁的防护栏，继而飞下高架，车毁人亡，无论怎样，反正我死了，结果会怎样？</p>
+  <entry>
+    <title type="html"><![CDATA[if i die young]]></title>
+    <link href="http://hyphenlee.github.io/blog/2014/01/29/if-i-die-young/"/>
+    <updated>2014-01-29T11:39:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2014/01/29/if-i-die-young</id>
+    <content type="html"><![CDATA[<p>每天我都要坐一辆郊区往市区的车去上班，倘若某天在这车上，这辆不起眼的公交车上，在某个不起眼的地方，出了问题，汽车失控，结果是高速地撞上路旁的防护栏，继而飞下高架，车毁人亡，无论怎样，反正我死了，结果会怎样？</p>
 
 <p>首先就当天而言，老板会怪我又旷工了一天，而家里人会因晚上迟迟等不到我回去而感到奇怪，然后打电话而我，听到的只会是无法接通或已关机，之后或许会打电话到公司去，得到的是我未曾到公司去后转而变得焦急，最后的最后他们会知道我已经死了。</p>
 
@@ -623,49 +354,15 @@
 <p>如果我死了，人们会很快忘了我，除了父母在开始一段时间饱受丧子之痛，慢慢的一切的一切都会随风消逝，慢慢的不再有人记得曾经有这么个人活着过，所有关于我的记录一条条的都会被删去，我来这个世界之前没人知道我，我离开后亦不会有人记得。</p>
 
 <p>如果我真的死了，在我的葬礼上，不要放鞭炮，不能有鼓乐，亲爱的爸爸，你知道我喜欢安静的；别给我买墓地，因为我没有孩子，没有人会祭奠我，把我的骨灰洒在老家后门的小河上就好了 ；不要悲伤，太阳还是会照常升起，日子还得继续，我剩下的东西怎么处置都行，反正我已经死了。</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2014-01-29T11:39:00+08:00" pubdate data-updated="true">Jan 29<span>th</span>, 2014</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/thought/'>thought</a>
-
-
-</div>
-	
-	<div class="comments"><a href="/blog/2014/01/29/if-i-die-young/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/11/02/running/">
-		
-			Running</a>
-	</h2>
-	<div class="entry-content">
-		<p>关于跑步早觉得该写点什么了，今天是周六,没什么事情就一个人好好的写一篇关于跑步的文章吧</p>
+  <entry>
+    <title type="html"><![CDATA[running]]></title>
+    <link href="http://hyphenlee.github.io/blog/2013/11/02/running/"/>
+    <updated>2013-11-02T10:02:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2013/11/02/running</id>
+    <content type="html"><![CDATA[<p>关于跑步早觉得该写点什么了，今天是周六,没什么事情就一个人好好的写一篇关于跑步的文章吧</p>
 
 <h3>我的跑步经历</h3>
 
@@ -726,49 +423,15 @@
 <blockquote><p><a href="&#x6d;&#97;&#105;&#x6c;&#116;&#111;&#58;&#108;&#x68;&#102;&#x63;&#x6a;&#x68;&#x79;&#x79;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#x63;&#111;&#109;">&#x6c;&#x68;&#x66;&#99;&#x6a;&#104;&#121;&#x79;&#64;&#x67;&#109;&#x61;&#105;&#108;&#46;&#99;&#x6f;&#x6d;</a></p></blockquote></li>
 </ul>
 
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2013-11-02T10:02:00+08:00" pubdate data-updated="true">Nov 2<span>nd</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/life/'>life</a>
-
-
-</div>
-	
-	<div class="comments"><a href="/blog/2013/11/02/running/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/10/09/database/">
-		
-			Poco C++通过odbc连接 Mysql传送大数据</a>
-	</h2>
-	<div class="entry-content">
-		<h5>最近在做数据库开发，使用的是poco C++库，用odbc的方式链接mysql,在传输      大的二进制数据折腾了很长时间，特写个文章给需要的人。</h5>
+  <entry>
+    <title type="html"><![CDATA[poco C++通过odbc连接 mysql传送大数据]]></title>
+    <link href="http://hyphenlee.github.io/blog/2013/10/09/database/"/>
+    <updated>2013-10-09T14:13:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2013/10/09/database</id>
+    <content type="html"><![CDATA[<h5>最近在做数据库开发，使用的是poco C++库，用odbc的方式链接mysql,在传输      大的二进制数据折腾了很长时间，特写个文章给需要的人。</h5>
 
 <h2>连接数据库</h2>
 
@@ -819,124 +482,100 @@ BLOB dat<em>((unsigned char*)buffer,length);
 std::vector<CLOB> te_bl;
 session&lt;&lt;&ldquo;insert into blobtest  values(?)&rdquo; ,use(dat</em>),now;
 session&lt;&lt;&ldquo;select * from blobtest&rdquo;,into(te_bl),now;</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
-
-
-<time datetime="2013-10-09T14:13:00+08:00" pubdate data-updated="true">Oct 9<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/tech/'>tech</a>
-
-
-</div>
-	
-	<div class="comments"><a href="/blog/2013/10/09/database/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/09/02/post/">
-		
-			Something I Want to Tell</a>
-	</h2>
-	<div class="entry-content">
-		<h4>I think I should do something</h4>
+  <entry>
+    <title type="html"><![CDATA[something I want to tell]]></title>
+    <link href="http://hyphenlee.github.io/blog/2013/09/02/post/"/>
+    <updated>2013-09-02T16:47:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2013/09/02/post</id>
+    <content type="html"><![CDATA[<h4>I think I should do something</h4>
 
 <p>Now, I am young and alone, but I will never be lonely and pointless.
 I want to do something meanful.I want to be someone useful.
 I don&rsquo;t want to waste my time.
 I want to be one of a kind, and have a wonderful dream to persuit. I just don&rsquo;t want to die with <strong>loneliness</strong>.</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[我怕]]></title>
+    <link href="http://hyphenlee.github.io/blog/2013/08/01/post/"/>
+    <updated>2013-08-01T16:56:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2013/08/01/post</id>
+    <content type="html"><![CDATA[<h3>时间过得飞快，</h3>
 
+<h3>快的让我害怕，</h3>
 
-<time datetime="2013-09-02T16:47:00+08:00" pubdate data-updated="true">Sep 2<span>nd</span>, 2013</time></div>
-	<div class="tags">
+<h3>我怕一转眼就老了，</h3>
 
+<h3>却仍旧一事无成；</h3>
 
-	<a class='category' href='/blog/categories/other/'>other</a>
+<h3>我怕一转眼就死了，</h3>
 
+<h3>却还是孤独一生；</h3>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[第一份博客]]></title>
+    <link href="http://hyphenlee.github.io/blog/2013/07/30/blog/"/>
+    <updated>2013-07-30T16:56:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2013/07/30/blog</id>
+    <content type="html"><![CDATA[<h2>为什么会有这个博客呢？</h2>
 
-</div>
-	
-	<div class="comments"><a href="/blog/2013/09/02/post/#disqus_thread">Comments</a></div>
-	
-</div>
-</article>
+<p>首先推荐一片博文：<a href="http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/">为什么要写博客</a></p>
 
-<nav id="pagenavi">
-    
-    
-        <a href="/blog/page/2/" class="next">Next</a>
-    
-    <div class="center"><a href="/blog/archives">Blog Archives</a></div>
-</nav></div>
-	<footer id="footer" class="inner">Copyright &copy; 2014
+<p>人生苦短，而互联网最为奇异之处莫过于能让一个人的思想永生，你在互联网上写的任何一段文字，只要其有意义，有人愿意读，那它就会一直被复制、转载、保存、流传下去。
+将一切斥诸于文字，是一个人思想的本身的对话，是大脑的产出，我们每天都接触无数的信息，可最终又随时间消亡，了无痕迹，唯有文字能成为永恒的存在，倘若有利于他人，亦不枉此生。</p>
 
-    hyphen lee
+<h2>建站方式</h2>
 
-</footer>
-	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-(function($){
-	$('.fancybox').fancybox();
-})(jQuery);
-</script> <!-- Delete or comment this line to disable Fancybox -->
+<p>博客使用octopress,安装在我的ubuntu上，使用markdown方式写的文章，网页挂在github pages上，无任何花费，只是步骤有点繁琐，要敲一堆代码。</p>
 
+<h2>试试markdown的功能</h2>
 
-<script type="text/javascript">
-      var disqus_shortname = 'hyphensblog';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//go.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
+<p>首先来一段代码吧：</p>
 
+<pre><code>int main()
+{
+    printf("what a wonderful world!");
+    return 0;
+}
+</code></pre>
 
+<p><code>print("what a wonderful world");</code></p>
 
+<pre><code>print("what if I could fly?");
+</code></pre>
 
+<p>再来个下划线：</p>
 
-</body>
-</html>
+<hr />
+
+<h2>插一张图片：</h2>
+
+<h2><img src="http://hyphenlee.github.io/images/500.jpeg" alt="my image" /></h2>
+
+<h3>链接：</h3>
+
+<p>我的博客链接：<a href="http://hyphenlee.github.io">我的博客</a></p>
+
+<h3>文字引用：</h3>
+
+<blockquote><pre><code>假如生活欺骗了你
+不要悲伤，不要心急
+忧郁的日子里需要镇静：
+相信吧，快乐的日子将会来临
+心儿永远向往这未来
+现在却常是忧郁
+一切都是瞬息
+一切都将会过去
+而那过去了的
+就会成为亲切的怀恋
+</code></pre></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

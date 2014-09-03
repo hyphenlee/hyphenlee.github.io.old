@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: poet | hyphen lee's personal blog]]></title>
+  <link href="http://hyphenlee.github.io/blog/categories/poet/atom.xml" rel="self"/>
+  <link href="http://hyphenlee.github.io/"/>
+  <updated>2014-09-03T17:33:07+08:00</updated>
+  <id>http://hyphenlee.github.io/</id>
+  <author>
+    <name><![CDATA[hyphen lee]]></name>
+    <email><![CDATA[lhfcjhyy@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[我怕]]></title>
+    <link href="http://hyphenlee.github.io/blog/2013/08/01/post/"/>
+    <updated>2013-08-01T16:56:00+08:00</updated>
+    <id>http://hyphenlee.github.io/blog/2013/08/01/post</id>
+    <content type="html"><![CDATA[<h3>时间过得飞快，</h3>
+
+<h3>快的让我害怕，</h3>
+
+<h3>我怕一转眼就老了，</h3>
+
+<h3>却仍旧一事无成；</h3>
+
+<h3>我怕一转眼就死了，</h3>
+
+<h3>却还是孤独一生；</h3>
+]]></content>
+  </entry>
+  
+</feed>
